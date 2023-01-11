@@ -5,15 +5,14 @@ const assertEqual = function(actual, expected) {
   }
 }
 
-//take 2 arrays as passed arguments to the function
+
 const eqArrays = function(array1, array2) {
-//compare only element at respective index for both arrays ie. array1[1] === array2[1], etc.
+
   for (let i =0; i < array1.length; i++) {
     if (array1[i] !== array2[i]) {
       return false;
     }
   }
-//return true if all elements pass, false if even one element is different
   return true;
 }
 
