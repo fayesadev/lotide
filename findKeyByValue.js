@@ -3,7 +3,7 @@ const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
   }
-}
+};
 
 const findKeyByValue = function(obj, value) {
   for (let property in obj) {
@@ -11,7 +11,7 @@ const findKeyByValue = function(obj, value) {
     return property;
     }
   }
-}
+};
 
 const bestTVShowsByGenre = { 
   sci_fi: "The Expanse",
