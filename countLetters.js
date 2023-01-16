@@ -19,5 +19,17 @@ const countLetters = function(sentence) {
   return letterCount;
 }
 
+// const countLetters = function(str) {
+//   for (const letter of str) {
+//     if (letter === ' ') {
+//       continue;
+//     }
+//     if (!result[letter]) {
+//       result[letter] = 0;
+//     }
+//     result[letter]++; **happy path
+//   }
+// };
+
 console.log(countLetters('lighthouse in the house'));
 
