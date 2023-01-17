@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@fayesadev/lotide",
   "version": "1.0.0",
-  "description": "consists of various functions focusing on FOCAL concepts with unit testing",
+  "description": "Consists of a variety of functions that pass and modify strings, arrays and/or objects. Includes testing and assertion functions.",
   "main": "README.md",
   "directories": {
     "test": "test"

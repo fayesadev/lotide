@@ -1,35 +1,48 @@
+
 # Lotide
 
-## Summary
-This repository aims to emulate a simple version of the lodash Javascript library, consisting of various types of functions and unit testing with Mocha and Chai using JS. Completed by [Faye](https://github.com/fayesadev) for the [Lighthouse Labs](https://www.lighthouselabs.ca/) Web Development Bootcamp.
+A mini clone of the [Lodash](https://lodash.com) library.
 
-## Table of Contents
+## Purpose
 
-### Day 1
-* [assertEqual](/assertEqual.js)
-* [head](/head.js)
-* [tail](/tail.js)
+**_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
 
-### Day 2
-* [eqArrays](/eqArrays.js)
-* [assertArraysEqual](/assertArraysEqual.js)
-* [without](/without.js)
+This project was created and published by me as part of my learnings at Lighthouse Labs. 
 
-### Day 3
-* [middle](/middle.js)
-* [countOnly](/countOnly.js)
-* [countLetters](/countLetters.js)
-* [letterPositions](/letterPositions.js)
-* [findKeybyValue](/findKeyByValue.js)
-* [eqObjects](/eqObjects.js)
-* [assertObjectsEqual](/assertObjectsEqual.js)
+## Usage
 
-### Day 4
-* [map](/map.js)
-* [takeUntil](/takeUntil.js)
-* [findKey](/findKey.js)
+**Install it:**
 
-### Testing
+`npm install @fayesadev/lotide`
+
+**Require it:**
+
+`const _ = require('@fayesadev/lotide');`
+
+**Call it:**
+
+`const results = _.tail([1, 2, 3]) // => [2, 3]`
+
+## Documentation
+
+The following functions are currently implemented:
+
+* [assertEqual](/assertEqual.js): Assert if two values are equal
+* [head](/head.js): Returns the first item in an array
+* [tail](/tail.js): Returns an array with the first item removed
+* [eqArrays](/eqArrays.js): Checks if two arrays are equal
+* [assertArraysEqual](/assertArraysEqual.js): Asserts if two arrays are equal
+* [without](/without.js): Returns a new array without the items passed without modifying the original array
+* [middle](/middle.js): Returns the middle elements of an array
+* [countOnly](/countOnly.js): Counts how many times an item appears in an array
+* [countLetters](/countLetters.js): Counts how many times each letter appears in a string
+* [letterPositions](/letterPositions.js): Returns the index of each letter in a string
+* [findKeybyValue](/findKeyByValue.js): Returns the key of a passed value
+* [eqObjects](/eqObjects.js): Checks if two objects are equal
+* [assertObjectsEqual](/assertObjectsEqual.js): Asserts if two objects are equal
+* [map](/map.js): Maps an array
+* [takeUntil](/takeUntil.js):Returns a new array of items in a given array until the given condition is satisfied
+* [findKey](/findKey.js): Finds key in an object based on a given condition
 * [Test Directory](/test/)
   * [assertArraysEqualTest](/test/assertArraysEqualTest.js)
   * [assertEqualTest](/test/assertEqualTest.js)
