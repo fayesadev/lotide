@@ -1,7 +1,7 @@
 # Lotide
 
 ## Summary
-This repository aims to emulate a simple version of the lodash Javascript library, consisting of various types of functions and unit testing using JS. Completed by [Faye](https://github.com/fayesadev) for the [Lighthouse Labs](https://www.lighthouselabs.ca/) Web Development Bootcamp.
+This repository aims to emulate a simple version of the lodash Javascript library, consisting of various types of functions and unit testing with Mocha and Chai using JS. Completed by [Faye](https://github.com/fayesadev) for the [Lighthouse Labs](https://www.lighthouselabs.ca/) Web Development Bootcamp.
 
 ## Table of Contents
 
