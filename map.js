@@ -12,25 +12,8 @@ const results1 = map(words, word => word[0]);
 console.log(results1);
 
 //Testing our map function
-const eqArrays = function(array1, array2) {
-  if (array1.length !== array2.length) {
-    return false;
-  }
-  for (let i = 0; i < array1.length; i++) {
-    if (array1[i] !== array2[i]) {
-      return false;
-    }
-  }
-  return true;
-};
 
-const assertArraysEqual = function(array1, array2) {
-  console.assert(eqArrays(array1, array2), `${array1} !== ${array2}`);
-  if (eqArrays(array1, array2)) {
-    console.log(`Assertion Passed: ${array1} === ${array2}`);
-  } 
-};
-
+const assertArraysEqual = require('./assertArraysEqual');
 assertArraysEqual(results1, ['g', 'c', 't', 'm', 't']);
 
 //Test Case 1
@@ -42,3 +25,5 @@ assertArraysEqual(results3, [6, 7, 2, 5, 3]);
 //Test Case 3
 const results4 = map(words, word => word.toUpperCase());
 assertArraysEqual(results4, ["GROUND", "CONTROL", "TO", "MAJOR", "TOM"]);
+
+module.exports = map;
