@@ -30,4 +30,10 @@ This repository aims to emulate a simple version of the lodash Javascript librar
 * [findKey](/findKey.js)
 
 ### Testing
-* [test](/test/)
+* [Test Directory](/test/)
+  * [assertArraysEqualTest](/test/assertArraysEqualTest.js)
+  * [assertEqualTest](/test/assertEqualTest.js)
+  * [eqArraysTest](/test/eqArraysTest.js)
+  * [headTest](/test/headTest.js)
+  * [middleTest](/test/middleTest.js)
+  * [tailTest](/test/tailTest.js)
